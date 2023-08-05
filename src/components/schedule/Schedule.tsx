@@ -28,6 +28,7 @@ const Schedule = ({ children }: { children: string }) => {
 
   const onSubmit = (data: FieldValues) => {
     console.log("submit", data);
+    setOpenModal(false);
   };
 
   return (
